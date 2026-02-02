@@ -4,7 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "bun test"
+    "test": "bun test",
+    "lint": "Linting"
+    
   },
   "devDependencies": {
     "@types/bun": "latest"
