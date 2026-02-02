@@ -2,13 +2,14 @@
   "name": "4",
   "module": "index.ts",
   "type": "module",
+  "private": true,
   "scripts": {
     "test": "bun test"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5"
   }
 }
