@@ -4,9 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "bun test",
-    "lint": "Linting"
-    
+    "test": "vitest run",
+    "lint": "echo 'Add your linter here (e.g., eslint .)' ",
+    "build": "echo 'Add your build command here'"
   },
   "devDependencies": {
     "@types/bun": "latest"
